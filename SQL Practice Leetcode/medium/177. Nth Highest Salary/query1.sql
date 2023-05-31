@@ -5,8 +5,6 @@
 
 -- The query result format is in the following example.
 
-
-
 CREATE FUNCTION getNthHighestSalary(@N INT) RETURNS INT AS
 BEGIN
 SET @N = @N - 1;

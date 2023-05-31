@@ -8,7 +8,7 @@
 
 select 
 P.product_id,
-round(
+round(                                        
   (sum(
     (P.price*1.00)*(US.units*1.00)
   ) * 1.00) / (sum((US.units*1.00)) * 1.00) , 2
