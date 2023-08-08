@@ -1,4 +1,3 @@
-
 -- Write an SQL query that reports 
 -- the average experience years of all the employees 
 -- for each project, rounded to 2 digits.
@@ -17,4 +16,4 @@ inner join
 Employee as E
 on
 P.employee_id = E.employee_id
-group by P.project_id
+group by P.project_id;

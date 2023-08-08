@@ -16,7 +16,10 @@ sum(
   else 0 
   end
 ) as 'travelled_distance'
-from Users as U left join Rides as R
+from 
+Users as U 
+left join 
+Rides as R
 on
 U.id = R.user_id  
 group by U.name, U.id

@@ -6,4 +6,7 @@
 
 -- The query result format is in the following example.
 
-select email from Person group by email having count(email) >1;
+select email 
+from Person 
+group by email 
+having count(email) >1;

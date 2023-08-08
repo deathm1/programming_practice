@@ -4,4 +4,9 @@
 
 -- The query result format is in the following example.
 
-select c.Customers from Customers as C left join Orders as O on C.id = O.id where O.customerId is null;
+select c.Customers 
+from Customers as C 
+left join 
+Orders as O 
+on C.id = O.id 
+where O.customerId is null;

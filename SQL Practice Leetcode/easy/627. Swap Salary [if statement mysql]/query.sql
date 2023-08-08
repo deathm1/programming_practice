@@ -3,6 +3,7 @@
 -- Note that you must write a single update statement, do not write any select statement for this problem.
 -- The query result format is in the following example.
 
- 
+-- how to use this ??
+-- IF (cond, true, false)
 
 update Salary set sex = IF(sex='m','f','m');

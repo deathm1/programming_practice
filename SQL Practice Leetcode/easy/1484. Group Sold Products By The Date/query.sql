@@ -6,10 +6,6 @@
 
 -- The query result format is in the following example.
 
-
-
-
-
 --ms sql
 SELECT 
 sell_date,
@@ -20,9 +16,6 @@ FROM
 FROM Activities) as t
 GROUP BY sell_date
 ORDER BY sell_date;
-
-
-
 
 -- mysql
 SELECT 

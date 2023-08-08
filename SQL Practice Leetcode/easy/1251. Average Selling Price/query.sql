@@ -4,8 +4,6 @@
 -- Return the result table in any order.
 
 -- The query result format is in the following example.
-
-
 select 
 P.product_id,
 round(                                        
@@ -21,4 +19,5 @@ on
 P.product_id = US.product_id 
 where 
 US.purchase_date >= P.start_date and 
-US.purchase_date <= p.end_date group by P.product_id;
+US.purchase_date <= p.end_date 
+group by P.product_id;
