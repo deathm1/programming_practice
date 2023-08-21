@@ -8,6 +8,7 @@
 -- Return the result table in any order.
 
 -- The query result format is in the following example.
+-- 602: Friend Requests II: Who Has the Most Friends
 
 
 select id, 'Root' as type from Tree where p_id is null
