@@ -1,8 +1,6 @@
-#User function Template for python3
-
+import math
 class Solution:
     ##Complete this code
-    
     def foccr(self, arr, N):
         l = 0
         h = N - 1
@@ -16,7 +14,6 @@ class Solution:
             else:
                 h = m - 1
         return N
-    
     def lastocc(self, arr, N):
         l = 0
         h = N - 1
@@ -29,25 +26,12 @@ class Solution:
                 l = m + 1
             else:
                 h = m - 1
-        
-   
-        
-        
     def countOnes(self,arr, N):
         
         if arr[0] == 1:
             return self.lastocc(arr, N) + 1
         else:
             return (N - self.foccr(arr, N))
-
-
-#{ 
- # Driver Code Starts
-#Initial Template for Python 3
-
-import math
-
-
 def main():
         T=int(input())
         while(T>0):
@@ -61,8 +45,5 @@ def main():
             print(ob.countOnes(A,N))
             
             T-=1
-
-
 if __name__ == "__main__":
     main()
-# } Driver Code Ends
