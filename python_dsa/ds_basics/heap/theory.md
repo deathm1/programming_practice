@@ -55,3 +55,7 @@ Getting Minimum Element: In a Min-Heap, the minimum element is always present at
 # Operations on a binary heap
 
 1. insert : O(log n) becuase height of BT is determined by log n
+
+# Some info on tree
+
+![Alt text](image-1.png)

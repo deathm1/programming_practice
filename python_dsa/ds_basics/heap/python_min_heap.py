@@ -121,13 +121,14 @@ class python_min_heap:
 
 
 def driver():
-    my_python_min_heap = python_min_heap([45,10,20,15,40,50,100,25])
+    my_python_min_heap = python_min_heap([931, 452, 874, 11, 827, 43, 53, 878, 820, 669])
     my_python_min_heap.show_array()
     # my_python_min_heap.create_binary_tree(0)
-    my_python_min_heap.decrease_key(3, 5)
-    my_python_min_heap.show_array()
-    my_python_min_heap.delete(3)
-    my_python_min_heap.show_array()
+    my_python_min_heap.min_heapify_rec(0)
+    # my_python_min_heap.decrease_key(3, 5)
+    # my_python_min_heap.show_array()
+    # my_python_min_heap.delete(3)
+    # my_python_min_heap.show_array()
     # my_python_min_heap.insert(12)
     # my_python_min_heap.show_array()
     # print(my_python_min_heap.extract_min())
